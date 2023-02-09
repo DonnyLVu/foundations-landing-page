@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* The header section, left side logo and 3 links */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: #1f2937;
+  position: sticky;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold;
+}
+
+.header-right-links {
+  display: flex;
+  font-size: 20px;
+  color: #e3e3e3;
+}
+
+ul,
+li,
+a {
+  padding: 0 10px 0 10px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #e3e3e3;
+}
