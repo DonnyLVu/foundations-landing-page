@@ -124,6 +124,77 @@ h1 {
   color: #4d4d4d;
 }
 
+/* Quote section, has main quote in italics then has a quote author to be bold */
+.quote-container {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  display: flex;
+  width: 50vw;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+/* Sign up modal container */
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 80px;
+  width: 90%;
+}
+
+.sign-up-content {
+  width: 40%;
+  border-radius: 10px;
+  padding: 60px 80px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-up-header {
+  font-weight: bold;
+  font-size: 25px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.sign-up-text {
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 15px;
+  align-self: center;
+}
+
 /* Screen size changes */
 @media only screen and (max-width: 1410px) {
   /* styles for browsers smaller than 960px; */
