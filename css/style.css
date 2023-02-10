@@ -186,13 +186,24 @@ h1 {
 
 .sign-up-button {
   background-color: #3882f6;
-  color: white;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   font-weight: bold;
   font-size: 15px;
   align-self: center;
+}
+
+/* Footer section , has copy right claim from odin project where this assignment is from*/
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  background-color: #1f2937;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 /* Screen size changes */
